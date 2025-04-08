@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist && bun --filter '*' build",
+    "lint": "eslint .",
+    "format": "bun --filter '*' format",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "workspaces": [
+    "./2025-04-11"
+  ],
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.11.0",
+    "@iconify-json/logos": "^1.2.4",
+    "@iconify-json/simple-icons": "^1.2.31",
+    "@slidev/cli": "^51.5.0",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0",
+    "@typed-sigterm/eslint-config": "^1.4.1",
+    "eslint": "^9.23.0",
+    "vue": "^3.5.13",
+    "vue-tsc": "^2.2.8"
+  }
+}
