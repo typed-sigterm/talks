@@ -8,6 +8,11 @@ to = "/.well-known/:splat"
 status = 200
 
 [[redirects]]
+from = "/2025-04-11"
+to = "/ex-caller"
+status = 301
+
+[[redirects]]
 from = "/ex-caller/*"
 to = "/2025-04-11/index.html"
 status = 200
