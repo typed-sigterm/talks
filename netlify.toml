@@ -3,21 +3,11 @@ command = "bun run build"
 publish = "dist"
 
 [[redirects]]
-from = "/.well-known/*"
-to = "/.well-known/:splat"
-status = 200
-
-[[redirects]]
-from = "/2025-04-11"
-to = "/ex-caller"
-status = 301
-
-[[redirects]]
 from = "/ex-caller/*"
-to = "/2025-04-11/index.html"
+to = "/ex-caller/index.html"
 status = 200
 
 [[redirects]]
 from = "/"
 to = "https://github.com/typed-sigterm/talks"
-status = 302
+status = 301
