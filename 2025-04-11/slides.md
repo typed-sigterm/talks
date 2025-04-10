@@ -15,6 +15,15 @@ mdc: true
 在开始之前：
 
 - 打开 [Mixpanel](https://mixpanel.com/p/2NXuZUnZ4wcGKhQEJ1aAHj) 备用，避免等待加载
+- 打开 [#64 的预览网址](https://deploy-preview-64--ex-caller.netlify.app/) 备用
+
+***
+
+ExCaller 是一个简约风格的随机点名工具。
+
+它的基本信息，创作说明中已详细介绍过。
+
+我今天既然站在这里，就讲讲别的，代码之外的事情。
 -->
 
 ---
@@ -25,6 +34,8 @@ mdc: true
 - 老师接到新班级后，只能低头看着名单点人
 - 公平性问题
 - ![](./assets/classnamepicker.avif){.w-80}
+
+<!-- 讲完四点后马上切到下一页 -->
 
 ---
 class: flex flex-col justify-center items-center
@@ -81,6 +92,8 @@ class: flex flex-col justify-center items-center
 }
 </style>
 
+<!-- 这一页等讲完“因此，我开发了 ExCaller”就过 -->
+
 ---
 class: flex flex-col justify-center text-center
 ---
@@ -91,6 +104,22 @@ class: flex flex-col justify-center text-center
   ——
   <img src="./assets/lark.svg" inline size-12>飞书未来无限大会
 </p>
+
+<!--
+不知道各位有没有听说过这一话：“颜值是第一生产力”。
+
+几年前的我比较闲，有时间看各种 conference，在飞书的一次发布会直播上听到了这句话，这和我的想法刚好契合。
+
+如果一个产品的颜值不高，就相当于一条街上堆满了垃圾污水，人们远远地看到就会绕开。
+
+反之，如果产品的颜值高，就像街旁开满了樱花，人们大多优先选择走这条路。
+
+然而，优先选择的前提绕的路不远。
+
+如果一个产品追求颜值，却把功能藏得太深，甚至搞捆绑销售、全家桶，那就是本末倒置。
+
+因此，ExCaller 的设计原则是“简洁，但不简单”。
+-->
 
 ---
 class: flex flex-col justify-center items-center
@@ -124,7 +153,57 @@ const showcases = [s1, s2, s3, s4, s5, s6, s7];
 </style>
 
 <!--
-别忘了 showcase #5 之后还有个导出功能，没有截图但要讲
+【逐个解释每张截图的功能】
+
+（别忘了 showcase #5 之后还有个导出功能，没有截图但要讲）。
+-->
+
+---
+
+# 跟随最佳实践
+
+- 单元测试
+- 类型检查
+- 代码风格规范与自动修复
+- 依赖更新与供应链漏洞通知
+- 一次修改，一次部署
+- PR 预览
+
+以及我主观上的：
+
+- Bun 而不是 Node.js
+- ESLint 而不是 ESLint+Prettier
+- Tauri 而不是 Electron
+
+<v-click>
+
+![](./assets/qr/stats.svg){.size-54 .float-right .mr-8 .mt-[-8rem]}
+
+分组功能：[typed-sigterm/ex-caller#64](https://github.com/typed-sigterm/ex-caller/pull/64)
+
+预览地址：https://deploy-preview-64--ex-caller.netlify.app
+
+</v-click>
+
+<!--
+写过代码的人应该都有体验过，如果你在网上搜一个问题，比如“ESLint Unexpected token 错误怎么解决”，
+那你得到的解法，尤其是来自 CSDN 的，大多数是把 ESLint 关掉了。
+
+一年前，ESLint 发布了 v9，带来了全新的配置系统 Flat Config。
+而你上网搜，99% 的文章还是用旧的配置系统 `.eslintrc`。
+
+中文 IT 平台上许多人都缺乏对新技术的关注度，甚至对新技术有排斥的情绪。
+而我不妥协，毕竟我又不赶工期，我还要追求代码健壮性和开发者体验。
+
+所以我跟随最佳实践。
+
+【逐条解释】
+
+有人问：“你做了这么多，除了你自己在开发时的体验以外，最终有没有产生价值呢？”
+
+ExCaller 不是商业产品，有真实用户就是有价值。
+
+【下一页】
 -->
 
 ---
@@ -158,6 +237,12 @@ const showcases = [s1, s2, s3, s4, s5, s6, s7];
 
 </v-click>
 
+<!--
+ExCaller 的开发和反馈过程是在 GitHub 上完全透明的，这在某种程度上也是对用户的一种承诺。
+
+那么高质量反馈毕竟是个例吧，有了质，有没有量呢？
+-->
+
 ---
 
 # 数据胜于雄辩
@@ -169,9 +254,18 @@ const showcases = [s1, s2, s3, s4, s5, s6, s7];
 默认情况下，用户**打开应用**、**开始点名**、**确认和取消更新**行为会匿名上报到数据分析平台 Mixpanel。
 
 完整的报告可以在此查看：https://mixpanel.com/p/2NXuZUnZ4wcGKhQEJ1aAHj
-，或扫描下方二维码：
 
 ![](./assets/qr/stats.svg){.size-54 .float-right .mr-8}
+
+<!--
+关于量，自然要用数据说话。
+
+【读稿】
+
+我认为，在仅靠搜索和口口相传的情况下，对于 ExCaller 这样一个小工具来说，这是一个不错的数据。
+
+当然，不推广策略实际上是对学业压力的妥协，也不算什么光彩的事。中考后，我还是会考虑补上推广这一块。
+-->
 
 ---
 
@@ -207,6 +301,19 @@ const showcases = [s1, s2, s3, s4, s5, s6, s7];
 
 <PoweredBySlidev v-click="'+0'" float-right mt-24 transition-opacity duration-300 />
 
+<!--
+ExCaller 作为现代软件，背后一定有一条庞大的供应链。
+
+根据不完全统计，ExCaller 共直接或间接依赖了 565 个库。
+
+诶这里怎么有个空格？这个我们待会再说。
+
+以上是部分直接依赖的库。
+
+除此之外呢，在屏幕上播放的这个，实际上不是 PPT，【点击】而是用 Slidev 制作的网页。
+Slidev 是专为开发者打造的演示文稿工具，在这里不多解释了。
+-->
+
 ---
 
 # 开源！
@@ -225,13 +332,19 @@ ExCaller 以 MIT 许可证开源，虽然现在只有我一个贡献者
 
 2024 — 920 次贡献
 
-2025 — 308 次贡献（截至 2025/4/8）
+2025 — 322 次贡献（截至 2025/4/10）
 
-共贡献给 115+89=204 个仓库（截至 2025/4/8）
+共贡献给 115+90=204 个仓库（截至 2025/4/10）
 
 </div>
 
 <v-click>我认为，开源更多地是一种态度，表达的是对他人劳动成果的尊重和对社区的回馈。</v-click>
+
+<!--
+我因此还被同学评价为“卷”。
+
+我庆幸我出生在开放源代码和自由软件运动繁荣发展的时代。
+-->
 
 ---
 
@@ -249,6 +362,28 @@ ExCaller 以 MIT 许可证开源，虽然现在只有我一个贡献者
   </a>
 </div>
 
+<!--
+ExCaller 的架构由三大块组成：
+
+- 负责前端的 Vue
+- 负责打包成原生应用的 Tauri
+- “元框架”Nuxt
+
+Nuxt 处理了包括路由、状态管理、自动导入等一系列事情，减少了 Vue“过于灵活”的问题，当然也付出了一定的成本。
+
+不得不说，Nuxt 确实是个好轮子，它最终加给用户的成本是非常低的。我在最近两年的开源生涯中，几乎所有的项目都用 Nuxt。
+
+但是，我的电脑难以承受 Nuxt 在开发时的成本。
+我打开项目，等 VS Code 把 Nuxt 生成的类型信息加载完，一分钟过去了。
+启动一下开发服务器，又一分钟过去了。
+重命名一个函数，又一分钟过去了。
+几分钟看似短，但是十分难熬的，而且一条要经历多次这样的等待。
+
+在权衡利弊后，我感到在技术选型时出现了偏差。于是，我在一周前决定放下 Nuxt，改用纯血 Vue。
+
+前面那一页中的空格，就是 Nuxt，它是个好轮子，但不适合这个的项目。
+-->
+
 ---
 
 # 未来计划
@@ -258,3 +393,9 @@ ExCaller 以 MIT 许可证开源，虽然现在只有我一个贡献者
 维护者招募：[typed-sigterm/ex-caller#56](https://github.com/typed-sigterm/ex-caller/discussions/56)
 
 Roadmap: https://github.com/users/typed-sigterm/projects/5/views/1
+
+<!--
+中考在即，我要再次向学业妥协。
+
+我开始在智教联盟论坛之类的地方寻找更广泛的社区参与，希望 ExCaller 能够成为社区驱动的项目。
+-->
