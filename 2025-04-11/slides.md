@@ -35,7 +35,9 @@ ExCaller 是一个简约风格的随机点名工具。
 - 公平性问题
 - ![](./assets/classnamepicker.avif){.w-80}
 
-<!-- 讲完四点后马上切到下一页 -->
+<!--
+讲完四点后马上切到下一页
+-->
 
 ---
 class: flex flex-col justify-center items-center
@@ -92,7 +94,9 @@ class: flex flex-col justify-center items-center
 }
 </style>
 
-<!-- 这一页等讲完“因此，我开发了 ExCaller”就过 -->
+<!--
+这一页等讲完“因此，我开发了 ExCaller”就过
+-->
 
 ---
 class: flex flex-col justify-center text-center
