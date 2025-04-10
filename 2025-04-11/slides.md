@@ -16,6 +16,7 @@ mdc: true
 
 - 打开 [Mixpanel](https://mixpanel.com/p/2NXuZUnZ4wcGKhQEJ1aAHj) 备用，避免等待加载
 - 打开 [#64 的预览网址](https://deploy-preview-64--ex-caller.netlify.app/) 备用
+- 打开 [Roadmap](https://github.com/users/typed-sigterm/projects/5/views/1)
 
 ***
 
