@@ -273,53 +273,6 @@ ExCaller 的开发和反馈过程是在 GitHub 上完全透明的，这在某种
 
 ---
 
-# 站在巨人的肩膀上
-
-开源造就了当今的世界，ExCaller 也不例外
-
-<div class="[&>*]:size-12" flex flex-wrap gap-8 mt-24>
-  <LogosTypescriptIcon />
-  <LogosRust />
-  <LogosBun />
-  <LogosNuxtIcon opacity-0 />
-  <LogosVue />
-  <LogosVitejs />
-  <LogosVitest />
-  <LogosUnocss />
-  <LogosPinia />
-  <LogosMixpanel w-16 />
-  <LogosTauri />
-  <LogosPostcss />
-  <LogosNaiveui />
-  <LogosZod />
-  <LogosVueuse />
-  <LogosUnjs />
-  <LineMdIconify2StaticTwotone />
-  <SimpleIconsLucide />
-  <LogosEslint />
-  <LogosRenovatebot />
-  <LogosNetlifyIcon />
-  <LogosGithubActions />
-  <LogosSlidev v-click transition-opacity duration-300 />
-</div>
-
-<PoweredBySlidev v-click="'+0'" float-right mt-24 transition-opacity duration-300 />
-
-<!--
-ExCaller 作为现代软件，背后一定有一条庞大的供应链。
-
-根据不完全统计，ExCaller 共直接或间接依赖了 565 个库。
-
-诶这里怎么有个空格？这个我们待会再说。
-
-以上是部分直接依赖的库。
-
-除此之外呢，在屏幕上播放的这个，实际上不是 PPT，【点击】而是用 Slidev 制作的网页。
-Slidev 是专为开发者打造的演示文稿工具，在这里不多解释了。
--->
-
----
-
 # 开源！
 
 ExCaller 以 MIT 许可证开源，虽然现在只有我一个贡献者
@@ -336,7 +289,7 @@ ExCaller 以 MIT 许可证开源，虽然现在只有我一个贡献者
 
 2024 — 920 次贡献
 
-2025 — 322 次贡献（截至 2025/4/10）
+2025 — 324 次贡献（截至 2025/4/10）
 
 共贡献给 115+90=204 个仓库（截至 2025/4/10）
 

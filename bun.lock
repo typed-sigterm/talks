@@ -5,7 +5,6 @@
       "devDependencies": {
         "@antfu/eslint-config": "^4.11.0",
         "@iconify-json/logos": "^1.2.4",
-        "@iconify-json/simple-icons": "^1.2.31",
         "@slidev/cli": "^51.5.0",
         "@slidev/theme-default": "^0.25.0",
         "@slidev/theme-seriph": "^0.25.0",
@@ -204,8 +203,6 @@
     "@iconify-json/logos": ["@iconify-json/logos@1.2.4", "https://registry.npmmirror.com/@iconify-json/logos/-/logos-1.2.4.tgz", { "dependencies": { "@iconify/types": "*" } }, "sha512-XC4If5D/hbaZvUkTV8iaZuGlQCyG6CNOlaAaJaGa13V5QMYwYjgtKk3vPP8wz3wtTVNVEVk3LRx1fOJz+YnSMw=="],
 
     "@iconify-json/ph": ["@iconify-json/ph@1.2.2", "https://registry.npmmirror.com/@iconify-json/ph/-/ph-1.2.2.tgz", { "dependencies": { "@iconify/types": "*" } }, "sha512-PgkEZNtqa8hBGjHXQa4pMwZa93hmfu8FUSjs/nv4oUU6yLsgv+gh9nu28Kqi8Fz9CCVu4hj1MZs9/60J57IzFw=="],
-
-    "@iconify-json/simple-icons": ["@iconify-json/simple-icons@1.2.31", "https://registry.npmmirror.com/@iconify-json/simple-icons/-/simple-icons-1.2.31.tgz", { "dependencies": { "@iconify/types": "*" } }, "sha512-xBUPtvkcSAiXs9DfVtudhLddQtQYin3I3Ph/W5FNYA0oE6r2hmLB8TgOog9OjOt1Sxn3IB5+4n5+64DMf2xNmQ=="],
 
     "@iconify-json/svg-spinners": ["@iconify-json/svg-spinners@1.2.2", "https://registry.npmmirror.com/@iconify-json/svg-spinners/-/svg-spinners-1.2.2.tgz", { "dependencies": { "@iconify/types": "*" } }, "sha512-DIErwfBWWzLfmAG2oQnbUOSqZhDxlXvr8941itMCrxQoMB0Hiv8Ww6Bln/zIgxwjDvSem2dKJtap+yKKwsB/2A=="],
 
