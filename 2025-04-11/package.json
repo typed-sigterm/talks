@@ -1,0 +1,13 @@
+{
+  "name": "@ts-talks/ex-caller",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --out ../dist/ex-caller",
+    "format": "slidev format"
+  },
+  "devDependencies": {
+    "@iconify-json/line-md": "^1.2.5"
+  }
+}
