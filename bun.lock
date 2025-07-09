@@ -20,6 +20,9 @@
         "@iconify-json/line-md": "^1.2.5",
       },
     },
+    "2025-07-10": {
+      "name": "@ts-talks/techs-in-junior",
+    },
   },
   "packages": {
     "@ampproject/remapping": ["@ampproject/remapping@2.3.0", "https://registry.npmmirror.com/@ampproject/remapping/-/remapping-2.3.0.tgz", { "dependencies": { "@jridgewell/gen-mapping": "^0.3.5", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw=="],
@@ -337,6 +340,8 @@
     "@szmarczak/http-timer": ["@szmarczak/http-timer@5.0.1", "https://registry.npmmirror.com/@szmarczak/http-timer/-/http-timer-5.0.1.tgz", { "dependencies": { "defer-to-connect": "^2.0.1" } }, "sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw=="],
 
     "@ts-talks/ex-caller": ["@ts-talks/ex-caller@workspace:2025-04-11"],
+
+    "@ts-talks/techs-in-junior": ["@ts-talks/techs-in-junior@workspace:2025-07-10"],
 
     "@tybys/wasm-util": ["@tybys/wasm-util@0.9.0", "https://registry.npmmirror.com/@tybys/wasm-util/-/wasm-util-0.9.0.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw=="],
 

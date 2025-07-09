@@ -27,7 +27,6 @@ Fanbook 没有提供 TypeScript SDK，所以我搓了一个。在此基础上，
 
 ![](./assets/fanbook-bot-tools.avif)
 
-
 2023/2 ~ 2024/4，由于社区和 Fanbook 原因未能持续维护。
 
 ---
