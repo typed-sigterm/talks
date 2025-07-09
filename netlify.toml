@@ -8,6 +8,11 @@ to = "/ex-caller/index.html"
 status = 200
 
 [[redirects]]
+from = "/techs-in-junior/*"
+to = "/techs-in-junior/index.html"
+status = 200
+
+[[redirects]]
 from = "/"
 to = "https://github.com/typed-sigterm/talks"
 status = 301
