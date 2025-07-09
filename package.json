@@ -8,7 +8,8 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "workspaces": [
-    "./2025-04-11"
+    "./2025-04-11",
+    "./2025-07-10"
   ],
   "devDependencies": {
     "@antfu/eslint-config": "^4.11.0",

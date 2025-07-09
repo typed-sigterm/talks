@@ -1,0 +1,10 @@
+{
+  "name": "@ts-talks/techs-in-junior",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --out ../dist/techs-in-junior",
+    "format": "slidev format"
+  }
+}
