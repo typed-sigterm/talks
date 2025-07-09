@@ -15,7 +15,7 @@ jobs:
         with:
           bun-version-file: .tool-versions
 
-      - run: bun i --frozen-lockfile
+      - run: CI=0 bun i
       - run: bun run format
       - run: bun run lint --fix
 
