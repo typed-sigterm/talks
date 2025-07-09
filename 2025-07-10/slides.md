@@ -140,16 +140,38 @@ ESLint 是 JavaScript 的代码检查工具，Autocorrect 是中英文之间空�
 
 # NextStep
 
-Moonshot48 深圳场参赛作品。
+Moonshot48 深圳场参赛作品。AI 辅助决策。
+
+![](./assets/next-step.avif)
+
+2025/4
 
 ---
 
 # 舞萌年度总结生成器
 
----
+舞萌是著名音游。抢在一个大版本更新前做出了年度总结生成器。
 
+![](./assets/maimai-2024.avif)
 
+数据远超预料：4484 次唯一访问，其中 1639 人保存过报告，清洗后 1574 份有效报告。
+
+[粗略的数据挖掘](https://typed-kernel.feishu.cn/share/base/dashboard/shrcnwJoW7XUEdPbqjAP5I3ojUf)
+
+2025/6
 
 ---
 
 # 纸片化学
+
+一款化学背景的卡牌策略桌游。
+
+https://www.paperchemis.com
+
+2025/2 ~
+
+---
+
+# 未命名的项目
+
+AI + 音游
